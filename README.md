@@ -4,7 +4,7 @@
 The models use the public-access driving dataset POLIDriving. After feature selection, the following attributes were selected: *observation hour*, *speed*, *rpm*, *acceleration*, *throttle position*, *engine temperature*, *engine load value*, *heart rate*, *current weather*, *visibility*, *precipitation*, *accidents onsite*, *design speed*, *accidents time*, and *risk level*. 
 
 ## Libraries
-Those models use <a href=https://docs.zama.ai/concrete-ml>Concrete ML</a>, a privacy-preserving machine learning (PPML) set of tools based on fully homomorphic encryption (FHE), to convert the learning model to its FHE equivalent.
+Those models use <a href=https://docs.zama.ai/concrete-ml>Concrete ML</a>, a privacy-preserving machine learning (PPML) set of tools based on fully homomorphic encryption (FHE), to convert the learning model to its FHE equivalent. They also uses <a href=https://pandas.pydata.org/>pandas</a> (1.4.4) for data analysis and manipulation, <a href=https://scikit-learn.org/>scikitlearn</a> (1.1.13) for building machine learning and neural network models, and <a href=https://pytorch.org/>pytorch</a> (1.13.1) for deep learning using graphics processing units (GPU).
 
 ## Models
 Considering the available builtin models on Concrete ML, the following PPML models were created.
